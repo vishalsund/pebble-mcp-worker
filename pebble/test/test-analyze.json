@@ -1,0 +1,9 @@
+{
+  "toolName": "analyze_codebase",
+  "args": {
+    "file_contents": {
+      "src/main.ts": "// TypeScript function\nconst a = 1;\n",
+      "README.md": "# Project Title\n\nOverview\n"
+    }
+  }
+}

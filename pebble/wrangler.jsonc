@@ -1,0 +1,21 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "pebble",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-11-09",
+	"observability": {
+		"enabled": true
+	},
+	"kv_namespaces": [
+		{
+			"binding": "PEBBLE_STORAGE",
+			"id": "c4ed64b3d1c04cfba42369df701272a3",
+			//"id": "",  // <-- Change this back to an empty string
+			//"preview_id": "" // <-- Change this back to an empty string
+		}
+	]
+}
